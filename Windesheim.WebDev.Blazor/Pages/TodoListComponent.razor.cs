@@ -9,5 +9,11 @@ namespace Windesheim.WebDev.Blazor.Pages
             "Add input form",
             "Add local storage"
         };
+
+        public void OnCheckboxCheck(string value)
+        {
+            Tasks.Remove(value);
+            StateHasChanged();
+        }
     }
 }

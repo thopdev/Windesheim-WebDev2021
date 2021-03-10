@@ -1,6 +1,8 @@
 ﻿<div>
     @foreach (var task in Tasks)
     {
-        <div>@task</div>
+        <div>
+            <input type="checkbox" @onchange="(() => OnCheckboxCheck(task))"> @task
+        </div>
     }
 </div>
