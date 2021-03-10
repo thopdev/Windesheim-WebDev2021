@@ -9,6 +9,10 @@ This repo contains all the instructions and information for the Windesheim WebDe
 Blazor WebAssembly App  
 **Unchecked** Asp .Net Core Hosted*
 
-- [ ] 3.1 Create a new [Compontent](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0) in the Pages Folder
+- [ ] 3.1 Create a new [Compontent](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0) in the Pages Folder (TodoListComponent)
 - [ ] 3.2 Add the component to the Pages/Index.razor
 - [ ] 3.3 Add a list of string to the component and display the list on the component *Insert a few options into the list*
+  
+- [ ] 4.1 Add a checkbox before each item in the TodoListComponent
+- [ ] 4.2 Create a function that removes a item from the list by value on the TodoListComponent
+- [ ] 4.3 Trigger the function when a change occours on the checkbox. [Event handeling](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-5.0)
