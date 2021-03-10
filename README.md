@@ -20,13 +20,13 @@ Blazor WebAssembly App
 - [x] 3.3 Trigger the function when a change occours on the checkbox. [Event handeling](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-5.0)  
 
 ### New Tasks
-- [ ] 4.1 Create a new Component in the Pages Folder (NewTodoItemComponent) and add it to your TodoListComponenent
-- [ ] 4.2 Create a EditForm with a text input and button [Forms](https://docs.microsoft.com/en-us/aspnet/core/blazor/forms-validation?view=aspnetcore-5.0)\  
+- [x] 4.1 Create a new Component in the Pages Folder (NewTodoItemComponent) and add it to your TodoListComponenent
+- [x] 4.2 Create a EditForm with a text input and button [Forms](https://docs.microsoft.com/en-us/aspnet/core/blazor/forms-validation?view=aspnetcore-5.0)\  
 *Make sure to add some validation and user feedback*
-- [ ] 4.3 Create the property EventCallback<string> with the attribute [Parameter]
-- [ ] 4.4 Create a function that triggers the EventCallback and clears the form
-- [ ] 4.5 Trigger the function on valid submit from the form
-- [ ] 4.6 On the TodoListComponent, Handle the event of the NewTodoItemComponent and add the value to the list
+- [x] 4.3 Create the property EventCallback<string> with the attribute [Parameter]
+- [x] 4.4 Create a function that triggers the EventCallback and clears the form
+- [x] 4.5 Trigger the function on valid submit from the form
+- [x] 4.6 On the TodoListComponent, Handle the event of the NewTodoItemComponent and add the value to the list
 
 ## Additional
 ### bUnit Unit testing - https://bunit.egilhansen.com/
