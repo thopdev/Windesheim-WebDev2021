@@ -32,13 +32,13 @@ Blazor WebAssembly App
 bunit.xunit 1.0.0-preview-01*
 - [ ] 5.3 Add the Blazor project as depedency
 - [ ] 5.4 Create a new class with a test
-`
+```
 using var context = new TestContext();
 
 var component = context.RenderComponent<TodoListComponent>();
 
 Assert.Equal(2, component.FindAll("input[type=checkbox]").Count);
-`
+```
 [ ] - 5.5 Can you add more tests?
 
 [ ] 6. Can you add more features and add some styling?
