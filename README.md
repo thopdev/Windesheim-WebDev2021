@@ -1,21 +1,25 @@
 # Windesheim-WebDev2021
 This repo contains all the instructions and information for the Windesheim WebDev
 
+### Setup
 - [ ] 1.1 Verify that you have .Net version 5.0.* with **dotnet --version**  
 *If you don't have this version: https://dotnet.microsoft.com/download*  
 - [ ] 1.2 Open Visual studio and create a new **Blazor App** project with the following settings:  
 *.NET 5.0  
 Blazor WebAssembly App  
 **Unchecked** Asp .Net Core Hosted*
----
+
+### Todo list
 - [ ] 2.1 Create a new [Compontent](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0) in the Pages Folder (TodoListComponent)
 - [ ] 2.2 Add the component to the Pages/Index.razor
 - [ ] 2.3 Add a list of string to the component and display the list on the component *Insert a few options into the list*
----
+
+### Click event
 - [ ] 3.1 Add a checkbox before each item in the TodoListComponent
 - [ ] 3.2 Create a function that removes a item from the list by value on the TodoListComponent
 - [ ] 3.3 Trigger the function when a change occours on the checkbox. [Event handeling](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-5.0)  
----
+
+### New Tasks
 - [ ] 4.1 Create a new Component in the Pages Folder (NewTodoItemComponent) and add it to your TodoListComponenent
 - [ ] 4.2 Create a EditForm with a text input and button [Forms](https://docs.microsoft.com/en-us/aspnet/core/blazor/forms-validation?view=aspnetcore-5.0)\  
 *Make sure to add some validation and user feedback*
@@ -39,6 +43,6 @@ var component = context.RenderComponent<TodoListComponent>();
 
 Assert.Equal(2, component.FindAll("input[type=checkbox]").Count);
 ```
-[ ] - 5.5 Can you add more tests?
-
-[ ] 6. Can you add more features and add some styling?
+- [ ] 5.5 Can you add more tests?
+### Features!
+- [ ] 6. Can you add more features and add some styling?
