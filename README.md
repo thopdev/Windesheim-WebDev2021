@@ -39,7 +39,6 @@ var component = context.RenderComponent<TodoListComponent>();
 
 Assert.Equal(2, component.FindAll("input[type=checkbox]").Count);
 ```  
-
 [ ] - 5.5 Can you add more tests?
 
 [ ] 6. Can you add more features and add some styling?
