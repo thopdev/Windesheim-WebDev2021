@@ -10,9 +10,9 @@ Blazor WebAssembly App
 **Unchecked** Asp .Net Core Hosted*
 
 ### Todo list
-- [ ] 2.1 Create a new [Compontent](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0) in the Pages Folder (TodoListComponent)
-- [ ] 2.2 Add the component to the Pages/Index.razor
-- [ ] 2.3 Add a list of string to the component and display the list on the component *Insert a few options into the list*
+- [x] 2.1 Create a new [Compontent](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0) in the Pages Folder (TodoListComponent)
+- [x] 2.2 Add the component to the Pages/Index.razor
+- [x] 2.3 Add a list of string to the component and display the list on the component *Insert a few options into the list*
 
 ### Click event
 - [ ] 3.1 Add a checkbox before each item in the TodoListComponent
