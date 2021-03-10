@@ -15,9 +15,9 @@ Blazor WebAssembly App
 - [x] 2.3 Add a list of string to the component and display the list on the component *Insert a few options into the list*
 
 ### Click event
-- [ ] 3.1 Add a checkbox before each item in the TodoListComponent
-- [ ] 3.2 Create a function that removes a item from the list by value on the TodoListComponent
-- [ ] 3.3 Trigger the function when a change occours on the checkbox. [Event handeling](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-5.0)  
+- [x] 3.1 Add a checkbox before each item in the TodoListComponent
+- [x] 3.2 Create a function that removes a item from the list by value on the TodoListComponent
+- [x] 3.3 Trigger the function when a change occours on the checkbox. [Event handeling](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-5.0)  
 
 ### New Tasks
 - [ ] 4.1 Create a new Component in the Pages Folder (NewTodoItemComponent) and add it to your TodoListComponenent
