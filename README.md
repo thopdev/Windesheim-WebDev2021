@@ -27,7 +27,7 @@ Blazor WebAssembly App
 - [ ] 4.4 Create a function that triggers the EventCallback and clears the form
 - [ ] 4.5 Trigger the function on valid submit from the form
 - [ ] 4.6 On the TodoListComponent, Handle the event of the NewTodoItemComponent and add the value to the list
----
+
 ## Additional
 ### bUnit Unit testing
 - [ ] 5.1 Create a Xunit project (Make sure it is .Net 5.0
