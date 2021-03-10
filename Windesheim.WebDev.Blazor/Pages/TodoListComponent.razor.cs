@@ -10,10 +10,14 @@ namespace Windesheim.WebDev.Blazor.Pages
             "Add local storage"
         };
 
+        public void OnNewTodoTask(string value)
+        {
+            Tasks.Add(value);
+        }
+
         public void OnCheckboxCheck(string value)
         {
             Tasks.Remove(value);
-            StateHasChanged();
         }
     }
 }

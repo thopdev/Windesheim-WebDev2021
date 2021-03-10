@@ -1,0 +1,8 @@
+﻿<EditForm Model="@NewTodoItem" OnValidSubmit="@OnSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <InputText Class="form-control" id="name" @bind-Value="NewTodoItem.Text" />
+
+    <button class="btn-primary btn" type="submit">Add new item</button>
+
+</EditForm>
