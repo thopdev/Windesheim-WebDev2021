@@ -30,12 +30,12 @@ Blazor WebAssembly App
 
 ## Additional
 ### bUnit Unit testing - https://bunit.egilhansen.com/
-- [ ] 5.1 Create a Xunit project (Make sure it is .NET 5.0)
-- [ ] 5.2 Add the following packages to it.  
+- [x] 5.1 Create a Xunit project (Make sure it is .NET 5.0)
+- [x] 5.2 Add the following packages to it.  
 *bunit.web 1.0.0-preview-01  
 bunit.xunit 1.0.0-preview-01*
-- [ ] 5.3 Add the Blazor project as depedency
-- [ ] 5.4 Create a new class with a test
+- [x] 5.3 Add the Blazor project as depedency
+- [x] 5.4 Create a new class with a test
 ```csharp
 using var context = new TestContext();
 
